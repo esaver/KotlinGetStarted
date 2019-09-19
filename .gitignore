@@ -1,0 +1,16 @@
+# Tooling
+.gradle/
+
+# Output
+build/
+out/
+log/
+teste2e/out
+*.log
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.DS_Store
+*.iws
