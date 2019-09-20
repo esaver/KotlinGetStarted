@@ -10,4 +10,7 @@ fun main() {
 
     assertTrue { first == second }
     assertFalse { first == firstCapatilized }
+
+    assertTrue { first.equals(second) }
+    assertTrue { first.equals(firstCapatilized, true) }
 }
